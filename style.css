@@ -1,0 +1,99 @@
+body,*,*:after,*:before{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(145, 135, 145) 0px 2px 5px;
+    overflow:hidden;
+    
+}
+.page_header{
+    background-color: rgb(228, 214, 228);
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+    color:black;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+ 
+.form{
+    padding: 20px 40px;
+    text-transform: capitalize;
+}
+ .formcontrol{
+     padding-bottom: 20px;
+     margin-bottom: 10px;
+     position: relative;
+ }
+  .formcontrol label{
+      display: inline-block;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: blue;
+  }
+  .formcontrol input{
+      display: block;
+      padding: 10px;
+      border: 2px grey solid;
+      width: 100%;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:indigo;
+      text-transform: capitalize;
+      border-radius: 5px;
+    }
+     .formcontrol i{
+         position: absolute;
+         top: 38px;
+         right: 20px;
+         visibility: hidden;
+     }
+      .formcontrol small{
+          position: absolute;
+          left: 0%;
+          bottom: 05;
+          visibility: hidden;
+      }
+      .button{
+          background-color: indigo;
+          color: white;
+          display: block;
+          width: 100%;
+          text-align: center;
+          text-transform: capitalize;
+          padding: 10px 5px;
+          font-size: 16px;
+          border-radius: 5px;
+      }
+      .sucess input{
+          border-color: green;
+      }
+      .sucess i:nth-child(3){
+          color: green;
+          visibility: visible;
+      }
+     
+      }
+      .fail input{
+          border-color: red;
+      }
+      .fail i:nth-child(4){
+          color: red;
+          visibility: visible;
+      }
+      .fail small{
+          color: red;
+          visibility: visible;
+      }
